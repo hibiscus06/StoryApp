@@ -12,6 +12,9 @@ export default {
         mediumBlue: 'rgb(19, 75, 112)',  // Custom medium blue
         lightBlue: 'rgb(80, 140, 155)',  // Custom light blue
         lightGray: 'rgb(238, 238, 238)', // Custom light gray
+        lightBlueHover: 'rgb(145, 204, 219)', 
+        navyBlue:'rgb(65,105,225)',
+        
       
       },
     },
