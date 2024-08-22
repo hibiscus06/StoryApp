@@ -3,10 +3,10 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div class="flex flex-row justify-evenly bg-custom-lightBlue text-custom-darkBlue p-4 text-lg sticky top-0 z-10">
+      <div class="flex flex-row justify-evenly items-center bg-custom-lightBlue text-custom-darkBlue p-4 text-lg sticky top-0 z-10">
         <div>logo</div>
         <div className="ml-[10vw]">
-          <ul class="flex space-x-4 text-xl ">
+          <ul class="flex space-x-4 text-[1.2rem] ">
             <li>
               <a href="#" class="hover:text-white">
                 Discover
