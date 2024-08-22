@@ -13,17 +13,17 @@ const Block1 = () => {
           creative writing platform. Join a community with writers and
           <br /> their goals at the heart of everything we do.
         </p>
-        <button className="bg-custom-lightBlue  h-12 w-[20vh] rounded-md hover:bg-custom-lightBlueHover">
-          <p className="text-xl text-custom-darkBlue">
+        <button className="bg-custom-lightBlue  h-[7vh] w-[22vh] rounded-md hover:bg-custom-lightBlueHover">
+          <p className="text-[1.1rem] text-custom-darkBlue">
             Way to creativity <i className="fa-solid fa-arrow-right"></i>
           </p>
         </button>
       </div>
 
       <div className="border-2 border-custom-lightGray mx-[30vh] text-gray-500">
-        <p className="text-lg py-2 text-center ">The Escape Route</p>
+        <p className="text-[1rem] py-2 text-center ">The Escape Route</p>
         <div className="border border-custom-lightGray mx-8"></div>
-        <article className="p-5 text-lg overflow-y-scroll h-[50vh]">
+        <article className="p-5 text-[1rem] overflow-y-scroll h-[50vh] w-[60vw]">
           "Jenny!" Leo ripped the heavy, metal door back.
           <br />
           <br /> My spine stiffened like the hair on a cornered dog. I wondered
@@ -55,10 +55,6 @@ const Block1 = () => {
           "But it's happening other places, too. Other animals. All coming down
           from the sky."
         </article>
-      </div>
-
-      <div className="my-10">
-        <p className="text-5xl text-custom-darkBlue">More than a writing app</p>
       </div>
     </div>
   );
