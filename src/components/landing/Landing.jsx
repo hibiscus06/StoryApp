@@ -12,9 +12,9 @@ const Landing = () => {
       <Navbar />
 
       <Block1 />
-      <Testimonials />
       <About />
       <ReadingRoom />
+      <Testimonials />
       <Footer />
     </>
   );

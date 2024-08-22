@@ -56,10 +56,6 @@ const Block1 = () => {
           from the sky."
         </article>
       </div>
-
-      <div className="my-10">
-        <p className="text-5xl text-custom-darkBlue">More than a writing app</p>
-      </div>
     </div>
   );
 };
