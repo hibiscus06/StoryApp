@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -31,9 +32,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row justify-evenly">
-          <button className="border border-custom-lightGray mr-5 bg-custom-lightGray rounded-lg font-bold h-10 w-20 hover:shadow-custom-mediumBlue hover:shadow-lg">
-            <p className="text-lg ">Login</p>
-          </button>
+          <Link to="/login">
+            <button className="border border-custom-lightGray mr-5 bg-custom-lightGray rounded-lg font-bold h-10 w-20 hover:shadow-custom-mediumBlue hover:shadow-lg">
+              <p className="text-lg ">Login</p>
+            </button>
+          </Link>
           <button className="border border-custom-lightGray bg-custom-lightGray rounded-lg font-bold h-10 w-20 hover:shadow-custom-mediumBlue hover:shadow-lg">
             <p className="text-lg ">Signup</p>
           </button>
