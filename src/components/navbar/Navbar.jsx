@@ -8,26 +8,37 @@ const Navbar = () => {
         <div>logo</div>
         <div className="ml-[10vw]">
           <ul class="flex space-x-4 text-[1.2rem] ">
-            <li>
-              <a href="#" class="hover:text-white">
-                Discover
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-white">
-                Themes
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-white">
-                Dashboard
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-white">
-                About
-              </a>
-            </li>
+            <Link to="/discover">
+              <li>
+                <a href="#" class="hover:text-white">
+                  Discover
+                </a>
+              </li>
+            </Link>
+
+            <Link to="/themes">
+              <li>
+                <a href="#" class="hover:text-white">
+                  Themes
+                </a>
+              </li>
+            </Link>
+
+            <Link to="/dashboard">
+              <li>
+                <a href="#" class="hover:text-white">
+                  Dashboard
+                </a>
+              </li>
+            </Link>
+
+            <Link to="about">
+              <li>
+                <a href="#" class="hover:text-white">
+                  About
+                </a>
+              </li>
+            </Link>
           </ul>
         </div>
 
@@ -44,7 +55,6 @@ const Navbar = () => {
       </div>
     </>
   );
-  ``;
 };
 
 export default Navbar;
