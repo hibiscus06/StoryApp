@@ -13,8 +13,8 @@ const Block1 = () => {
           creative writing platform. Join a community with writers and
           <br /> their goals at the heart of everything we do.
         </p>
-        <button className="bg-custom-lightBlue  h-[7vh] w-[22vh] rounded-md hover:bg-custom-lightBlueHover">
-          <p className="text-[1.1rem] text-custom-darkBlue">
+        <button className="bg-custom-darkBlue h-[7vh] w-[22vh] rounded-md hover:shadow-lg ">
+          <p className="text-[1rem] text-white">
             Way to creativity <i className="fa-solid fa-arrow-right"></i>
           </p>
         </button>

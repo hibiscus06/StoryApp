@@ -12,10 +12,10 @@ const ThemesDisplay = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-evenly font-serif items-center">
+      <div className="flex flex-col justify-evenly font-serif items-center mt-[1rem]">
         {/* Message */}
         <div>
-          <p className="text-[3rem] text-custom-darkBlue text-center">
+          <p className="text-[3rem] text-custom-darkBlue ">
             Get inspired to pen down
             <br /> your next masterpiece!
           </p>
@@ -43,13 +43,6 @@ const ThemesDisplay = () => {
             </div>
           ) : null}
         </div>
-      </div>
-
-      <div className="flex flex-row justify-evenly items-center">
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
       </div>
     </>
   );

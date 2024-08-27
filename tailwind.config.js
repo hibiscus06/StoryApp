@@ -5,12 +5,10 @@ export default {
     extend: {},
     colors: {
       custom: {
-        darkBlue: "rgb(32, 30, 67)", // Custom dark blue
-        mediumBlue: "rgb(19, 75, 112)", // Custom medium blue
-        lightBlue: "rgb(80, 140, 155)", // Custom light blue
-        lightGray: "rgb(238, 238, 238)", // Custom light gray
-        lightBlueHover: "rgb(145, 204, 219)",
-        navyBlue: "rgb(65,105,225)",
+        darkBlue: "#522258", // Custom dark blue
+        mediumBlue: "#C63C51", // Custom medium blue
+        lightBlue: "#8C3061", // Custom light blue
+        lightGray: "#FFDFD6", // Custom light gray
       },
     },
   },

@@ -25,7 +25,7 @@ const ReadingRoom = () => {
               <lil>Give a boost to yout creativity </lil>
             </ul>
           </div>
-          <div className="border rounded-md p-3 bg-custom-lightGray hover:bg-gray-300 drop-shadow-xl">
+          <div className="border-4 border-custom-darkBlue rounded-md p-3 hover:bg-gray-300 drop-shadow-xl">
             <p className="text-center text-xl text-custom-mediumBlue font-bold">
               Get inspired
             </p>
