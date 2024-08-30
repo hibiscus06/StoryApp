@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className="h-[30vh] bg-custom-lightGray flex flex-row justify-evenly items-center">
+        <div className="h-[30vh] bg-custom-copper/20 flex flex-row justify-evenly items-center">
           <div>
-            <p className="text-[2rem] text-custom-darkBlue">
+            <p className="text-[2rem] text-custom-darkBlue mb-4">
               Ready to get writing?
             </p>
-            <button className="bg-custom-lightBlue  h-[6vh] w-[22vh] rounded-md hover:bg-custom-lightBlueHover">
-              <p className="text-[1.1rem] text-custom-darkBlue">
+            <button className="bg-custom-lightBlue  h-[6vh] w-[22vh] rounded-md drop-shadow-2xl hover:shadow-2xl hover:transition-shadow duration-300">
+              <p className="text-[1.1rem] text-white ">
                 Way to creativity <i className="fa-solid fa-arrow-right"></i>
               </p>
             </button>

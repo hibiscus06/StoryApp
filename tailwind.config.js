@@ -5,10 +5,11 @@ export default {
     extend: {},
     colors: {
       custom: {
-        darkBlue: "#522258", // Custom dark blue
+        darkBlue: "#6f6476", // Custom copper
         mediumBlue: "#C63C51", // Custom medium blue
-        lightBlue: "#8C3061", // Custom light blue
-        lightGray: "#FFDFD6", // Custom light gray
+        lightBlue: "#4C3E54", // Custom rich plum
+        lightGray: "#F5F5DC", // Custom light gray
+        copper: "#A57C65",
       },
     },
   },

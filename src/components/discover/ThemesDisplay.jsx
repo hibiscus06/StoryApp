@@ -15,7 +15,7 @@ const ThemesDisplay = () => {
       <div className="flex flex-col justify-evenly font-serif items-center mt-[1rem]">
         {/* Message */}
         <div>
-          <p className="text-[3rem] text-custom-darkBlue ">
+          <p className="text-[3rem] text-custom-darkBlue text-center">
             Get inspired to pen down
             <br /> your next masterpiece!
           </p>
@@ -23,7 +23,7 @@ const ThemesDisplay = () => {
         {/*Themes  */}
         <div className="rounded-lg p-[2vh] ">
           <button
-            className="text-white bg-custom-mediumBlue font-bold text-[1.2rem] border-none rounded h-[6vh] w-[10vw]"
+            className="text-white bg-custom-copper font-bold text-[1.2rem] border-none rounded h-[6vh] w-[10vw]"
             onClick={() => handleDropdown()}
           >
             Select Theme
