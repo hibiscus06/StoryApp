@@ -10,26 +10,22 @@ const Discover = () => {
       <Navbar />
       <ThemesDisplay />
       <div className="">
-        <div className="flex flex-row justify-evenly items-center">
+        <div></div>
+        {/* <div className="flex flex-row flex-wrap justify-evenly items-center">
           <StoryCard />
           <StoryCard />
           <StoryCard />
           <StoryCard />
-        </div>
-        <div className="flex flex-row justify-evenly items-center">
           <StoryCard />
           <StoryCard />
           <StoryCard />
           <StoryCard />
-        </div>
-        <div className="flex flex-row justify-evenly items-center">
           <StoryCard />
           <StoryCard />
           <StoryCard />
           <StoryCard />
-        </div>
+        </div> */}
       </div>
-      <Footer />
     </>
   );
 };

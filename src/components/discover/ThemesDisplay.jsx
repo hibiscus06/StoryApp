@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import StoryCard from "./StoryCard";
+import bulb from "../../assets/bulb.png";
+import lighted from "../../assets/lightedBulb.png";
 
 const ThemesDisplay = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -12,14 +14,17 @@ const ThemesDisplay = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-evenly font-serif items-center mt-[1rem]">
+      <div className="flex flex-col justify-evenly font-serif items-center">
         {/* Message */}
-        <div>
-          <p className="text-[3rem] text-custom-darkBlue text-center">
-            Get inspired to pen down
-            <br /> your next masterpiece!
-          </p>
+        <div className="flex flex-col justify-center items-center text-center">
+          <div className="mt-[1rem]">
+            <p className="text-[4rem] text-custom-darkBlue">
+              Get inspired to pen down
+              <br /> your next masterpiece!
+            </p>
+          </div>
         </div>
+
         {/*Themes  */}
         <div className="rounded-lg p-[2vh] ">
           <button

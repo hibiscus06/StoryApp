@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className="h-[30vh] bg-custom-copper/20 flex flex-row justify-evenly items-center">
+        <div className="h-[30vh] bg-custom-darkBlue/10 flex flex-row justify-evenly items-center">
           <div>
             <p className="text-[2rem] text-custom-darkBlue mb-4">
               Ready to get writing?
             </p>
-            <button className="bg-custom-lightBlue  h-[6vh] w-[22vh] rounded-md drop-shadow-2xl hover:shadow-2xl hover:transition-shadow duration-300">
-              <p className="text-[1.1rem] text-white ">
+            <button className="bg-custom-lightBlue  h-[6vh] w-[22vh] rounded-md drop-shadow-xl hover:shadow-xl hover:transition-shadow duration-300">
+              <p className="text-[1.1rem] text-white">
                 Way to creativity <i className="fa-solid fa-arrow-right"></i>
               </p>
             </button>
@@ -50,15 +50,19 @@ const Footer = () => {
           <div className="text-white">
             <p>@All Rights Reserved.</p>
           </div>
-          <div className="flex flex-row justify-evenly w-[30vw] text-custom-darkBlue">
+          <div className="flex flex-row justify-evenly w-[30vw] text-white">
             <div className="">
-              <p className="hover:text-white">Terms of Service</p>
+              <p className="cursor-pointer hover:text-gray-400">
+                Terms of Service
+              </p>
             </div>
             <div>
-              <p className="hover:text-white">Privacy Policy</p>
+              <p className="cursor-pointer hover:text-gray-400">
+                Privacy Policy
+              </p>
             </div>
             <div>
-              <p className="hover:text-white">Cookies</p>
+              <p className="cursor-pointer hover:text-gray-400">Cookies</p>
             </div>
           </div>
         </div>
