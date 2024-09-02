@@ -7,29 +7,25 @@ import Footer from "../footer/Footer";
 const Discover = () => {
   return (
     <>
-      <div>
-        <Navbar />
-        <ThemesDisplay />
+      <Navbar />
+      <ThemesDisplay />
+      <div className="">
+        <div></div>
+        {/* <div className="flex flex-row flex-wrap justify-evenly items-center">
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+          <StoryCard />
+        </div> */}
       </div>
-      <div className="flex flex-row justify-evenly items-center">
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-      </div>
-      <div className="flex flex-row justify-evenly items-center">
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-      </div>
-      <div className="flex flex-row justify-evenly items-center">
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-        <StoryCard />
-      </div>
-      <Footer />
     </>
   );
 };

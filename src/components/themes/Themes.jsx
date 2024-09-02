@@ -1,16 +1,10 @@
 import React from "react";
+import Navbar from "../navbar/Navbar";
+import Themecard from "./Themecard";
+import PromptCard from "./PromptCard";
 
 const Themes = () => {
-  return (
-    <>
-      <div className="">
-        {/* Themes */}
-        <div className="border"></div>
-        {/* Prompts */}
-        <div className="border"></div>
-      </div>
-    </>
-  );
+  return <div>Themes</div>;
 };
 
 export default Themes;

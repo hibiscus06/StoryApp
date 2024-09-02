@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div class="flex flex-row justify-evenly items-center bg-custom-lightBlue text-white p-4 text-lg sticky top-0 z-10 font-serif">
+      <div class="flex flex-row justify-evenly items-center bg-custom-lightBlue text-white p-4 text-lg sticky top-0 z-30 font-serif">
         <Link to="/">
           <div>logo</div>
         </Link>
@@ -12,33 +12,25 @@ const Navbar = () => {
           <ul class="flex space-x-4 text-[1.2rem] ">
             <Link to="/discover">
               <li>
-                <a href="#" class="hover:text-custom-lightGray">
-                  Discover
-                </a>
+                <p className="hover:text-custom-lightGray">Discover</p>
               </li>
             </Link>
 
             <Link to="/themes">
               <li>
-                <a href="#" class="hover:text-white">
-                  Themes
-                </a>
+                <p className="hover:text-custom-lightGray">Themes</p>
               </li>
             </Link>
 
             <Link to="/dashboard">
               <li>
-                <a href="#" class="hover:text-white">
-                  Dashboard
-                </a>
+                <p className="hover:text-custom-lightGray">Dashboard</p>
               </li>
             </Link>
 
             <Link to="about">
               <li>
-                <a href="#" class="hover:text-white">
-                  About
-                </a>
+                <p className="hover:text-custom-lightGray">About</p>
               </li>
             </Link>
           </ul>
@@ -46,11 +38,11 @@ const Navbar = () => {
 
         <div className="flex flex-row justify-evenly">
           <Link to="/login">
-            <button className="mr-5 bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-lg">
+            <button className="mr-5 bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-lg hover:transition-shadow duration-300 ease-in-out">
               <p className="text-lg ">Login</p>
             </button>
           </Link>
-          <button className="bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-lg">
+          <button className="bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-2xl hover:transition-shadow duration-300 ease-in-out">
             <p className="text-lg ">Signup</p>
           </button>
         </div>
