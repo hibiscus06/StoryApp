@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="relative">
           <img className="" src={frame} />
-          <img className="py-10 absolute top-0 left-8 h-[66vh]" src={img} />
+          <img className="py-10 absolute top-0 left-8 h-[29rem]" src={img} />
         </div>
       </div>
     </div>
