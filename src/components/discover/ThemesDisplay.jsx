@@ -20,7 +20,7 @@ const ThemesDisplay = () => {
           <div className="mt-[1rem]">
             <p className="text-[4rem] text-custom-darkBlue">
               Get inspired to pen down
-              <br /> your next masterpiece!
+              <br /> your next masterpiece! Let your words flow.
             </p>
           </div>
         </div>
