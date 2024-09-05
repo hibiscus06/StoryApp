@@ -20,7 +20,7 @@ const ScrollingBackground = () => {
 
   return (
     <>
-      <div className="">
+      <div className="overflow-hidden">
         <p className="text-[4.8rem] text-custom-darkBlue font-serif relative float-end pr-[2rem] pt-[1rem]">
           Let your <br />
           words flow.

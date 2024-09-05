@@ -14,7 +14,7 @@ const Block1 = () => {
           creative writing platform. Join a community with writers and
           <br /> their goals at the heart of everything we do.
         </p>
-        <button className="bg-custom-darkBlue h-[7vh] w-[22vh] drop-shadow-lg rounded-md hover:shadow-2xl hover:transition-shadow duration-300">
+        <button className="bg-custom-darkBlue  h-[2.7rem] w-[10rem] rounded-md drop-shadow-xl hover:drop-shadow-xl hover:shadow-lg hover:transition-shadow duration-300">
           <p className="text-[1rem] text-white">
             Way to creativity <i className="fa-solid fa-arrow-right"></i>
           </p>
