@@ -4,12 +4,13 @@ import theme from "../../assets/castle1.png";
 import dis from "../../assets/discussing.png";
 import write from "../../assets/write.png";
 
-import { Carousel, Typography, Button } from "@material-tailwind/react";
-import _ScrollTrigger from "gsap/ScrollTrigger";
+import { Typography, Button } from "@material-tailwind/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { gsap } from "gsap";
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 const ReadingRoom = () => {
-  gsap.registerPlugin(_ScrollTrigger);
   return (
     <>
       <div className="flex flex-row justify-center mt-[5rem]">
