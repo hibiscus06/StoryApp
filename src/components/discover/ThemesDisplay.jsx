@@ -3,7 +3,7 @@ import React from "react";
 const ThemesDisplay = () => {
   return (
     <>
-      <div className="flex flex-col justify-evenly font-serif items-center z-10 relative bg-custom-lightBlue">
+      <div className="flex flex-col justify-evenly font-serif items-center z-10 relative bg-custom-lightBlue pb-[5rem]">
         {/* Message */}
         <div className="flex flex-col justify-center items-center text-center">
           <div className="mt-[1rem]">

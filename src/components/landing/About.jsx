@@ -4,14 +4,14 @@ import frame from "../../assets/frame.png";
 
 const About = () => {
   return (
-    <div className="bg-custom-copper text-white flex flex-col items-center py-10 mt-10 ">
+    <div className="bg-custom-copper text-white flex flex-col items-center justify-center py-10 mt-10 h-[50rem]">
       <div className="flex flex-row justify-evenly items-center w-3/4">
         <div className="">
-          <p className="text-[4rem] font-serif">
+          <p className="text-[5rem] font-serif">
             Built by writers, run <br />
             by writers, owned <br /> by writers
           </p>
-          <p className="text-[1.2rem] pt-5 font-serif">
+          <p className="text-[1.3rem] pt-5 font-serif">
             Novlr is the only creative writing platform to be <br />
             owned by the writers who use it. Join our community
             <br /> of writer-owners, co-own the platform you use, and <br />
@@ -22,8 +22,11 @@ const About = () => {
           </button>
         </div>
         <div className="relative">
-          <img className="" src={frame} />
-          <img className="py-10 absolute top-0 left-8 h-[29rem]" src={img} />
+          <img className="h-[40rem]" src={frame} />
+          <img
+            className="py-10 absolute top-[0.4rem] left-[2.4rem] h-[38.35rem]"
+            src={img}
+          />
         </div>
       </div>
     </div>

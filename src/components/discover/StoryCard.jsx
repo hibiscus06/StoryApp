@@ -10,7 +10,9 @@ const StoryCard = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ullam
           nisi nostrum ut dolor asperiores porro? Voluptates quis placeat sequi
           reiciendis, pariatur, quasi at quo totam, quos officia molestias
-          laudantium?
+          laudantium?nisi nostrum ut dolor asperiores porro? Voluptates quis
+          placeat sequi reiciendis, pariatur, quasi at quo totam, quos officia
+          molestias laudantium?
         </p>
       </div>
     </>

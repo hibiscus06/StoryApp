@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ship from "../../assets/pirateShip.jpg";
+import ship from "../../assets/pirateShipNobg.png";
 
 const ScrollingBackground = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -39,7 +39,7 @@ const ScrollingBackground = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
-            className="absolute inset-y-[14rem] w-full h-full bottom-0"
+            className="absolute inset-y-[16rem] w-full h-full bottom-0"
           >
             <path
               fill="#4c3e54"

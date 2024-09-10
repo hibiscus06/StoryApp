@@ -25,12 +25,12 @@ const Block1 = () => {
         <p className="text-[1rem] py-2 text-center ">The Escape Route</p>
         <div className="border border-custom-lightGray mx-8"></div>
 
-        <div className="relative h-[50vh] w-[60vw] overflow-y-scroll">
+        <div className="relative h-[29rem] w-[58rem] overflow-y-scroll">
           <div className="absolute">
-            <img src={img} className="w-[60vw] h-[35.5rem] " />
+            <img src={img} className="w-[57.8rem] h-[35.5rem] " />
           </div>
 
-          <article className="p-5 text-[1rem] text-white bg-custom-lightBlue/65 absolute w-[59.6vw]">
+          <article className="p-5 text-[1rem] text-white bg-custom-lightBlue/65 absolute w-[57.6rem]">
             "Jenny!" Leo ripped the heavy, metal door back.
             <br />
             <br /> My spine stiffened like the hair on a cornered dog. I
