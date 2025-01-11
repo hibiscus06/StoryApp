@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div class="flex flex-row justify-evenly items-center bg-custom-lightBlue text-white p-4 text-lg sticky top-0 z-30 font-serif">
+      <div className="flex flex-row justify-evenly items-center bg-custom-lightBlue text-white p-4 text-lg sticky top-0 z-30 font-serif">
         <Link to="/">
           <div>logo</div>
         </Link>
         <div className="ml-[10vw]">
-          <ul class="flex space-x-4 text-[1.2rem] ">
+          <ul className="flex space-x-4 text-[1.2rem] ">
             <Link to="/discover">
               <li>
                 <p className="hover:text-custom-lightGray">Discover</p>
@@ -28,7 +28,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="about">
+            <Link to="/about">
               <li>
                 <p className="hover:text-custom-lightGray">About</p>
               </li>
@@ -42,9 +42,11 @@ const Navbar = () => {
               <p className="text-lg ">Login</p>
             </button>
           </Link>
-          <button className="bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-2xl hover:transition-shadow duration-300 ease-in-out">
-            <p className="text-lg ">Signup</p>
-          </button>
+          <Link to="/profile">
+            <button className="mr-5 bg-custom-darkBlue rounded-lg font-bold h-10 w-20 hover:shadow-lg hover:drop-shadow-lg hover:transition-shadow duration-300 ease-in-out">
+              <p className="text-lg ">Profile</p>
+            </button>
+          </Link>
         </div>
       </div>
     </>

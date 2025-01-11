@@ -7,6 +7,8 @@ import Discover from "./components/discover/Discover.jsx";
 import Dashboard from "./components/dashboard/Dashboard.jsx";
 import Themes from "./components/themes/Themes.jsx";
 import About from "./components/about/About.jsx";
+import Register from "./components/signin/Register.jsx";
+import Profile from "./components/profile/Profile.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Signin />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
   {
     path: "/discover",
@@ -32,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ]);
 

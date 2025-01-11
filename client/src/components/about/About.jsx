@@ -1,10 +1,10 @@
 import React from "react";
-import ReadingRoom from "../landing/ReadingRoom";
+import Navbar from "../navbar/Navbar";
 
 const About = () => {
   return (
     <div>
-      <ReadingRoom />
+      <Navbar />
     </div>
   );
 };

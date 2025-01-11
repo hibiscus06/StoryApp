@@ -11,41 +11,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const ReadingRoom = () => {
-  const parallaxRefs = useRef([]);
-
-  // Add refs to an array
-  parallaxRefs.current = [];
-
-  const addToRefs = (el) => {
-    if (el && !parallaxRefs.current.includes(el)) {
-      parallaxRefs.current.push(el);
-    }
-  };
-
-  useEffect(() => {
-    parallaxRefs.current.forEach((section) => {
-      const image = section.querySelector(".parallax-image");
-
-      gsap.to(image, {
-        yPercent: -20, // Adjust the value for parallax speed
-        ease: "none",
-        scrollTrigger: {
-          trigger: section,
-          start: "top bottom",
-          end: "bottom bottom",
-          scrub: true,
-        },
-      });
-    });
-  }, []);
-
   return (
     <div className="mt-[5rem]">
       {/* Section 1 */}
-      <div
-        className="relative w-full overflow-hidden min-h-screen"
-        ref={addToRefs}
-      >
+      <div className="relative w-full overflow-hidden min-h-screen">
         <img
           src={theme}
           alt="image 1"
@@ -78,10 +47,7 @@ const ReadingRoom = () => {
       </div>
 
       {/* Section 2 */}
-      <div
-        className="relative w-full overflow-hidden min-h-screen"
-        ref={addToRefs}
-      >
+      <div className="relative w-full overflow-hidden min-h-screen">
         <img
           src={dis}
           alt="image 2"
@@ -114,10 +80,7 @@ const ReadingRoom = () => {
       </div>
 
       {/* Section 3 */}
-      <div
-        className="relative w-full overflow-hidden min-h-screen"
-        ref={addToRefs}
-      >
+      <div className="relative w-full overflow-hidden min-h-screen">
         <img
           src={write}
           alt="image 3"

@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../../assets/scifi.png";
+import img from "../../assets/greek.png";
+import { Link } from "react-router-dom";
 
 const Block1 = () => {
   return (
@@ -14,11 +15,13 @@ const Block1 = () => {
           creative writing platform. Join a community with writers and
           <br /> their goals at the heart of everything we do.
         </p>
-        <button className="bg-custom-darkBlue  h-[2.7rem] w-[10rem] rounded-md drop-shadow-xl hover:drop-shadow-xl hover:shadow-lg hover:transition-shadow duration-300">
-          <p className="text-[1rem] text-white">
-            Way to creativity <i className="fa-solid fa-arrow-right"></i>
-          </p>
-        </button>
+        <Link to="/dashboard">
+          <button className="bg-custom-darkBlue h-[2.7rem] w-[10rem] rounded-md drop-shadow-xl hover:drop-shadow-xl hover:shadow-lg hover:transition-shadow duration-300">
+            <p className="text-[1rem] text-white">
+              Way to creativity <i className="fa-solid fa-arrow-right"></i>
+            </p>
+          </button>
+        </Link>
       </div>
 
       <div className="border-2 border-custom-lightGray mx-[30vh] text-custom-lightBlue ">
@@ -30,7 +33,7 @@ const Block1 = () => {
             <img src={img} className="w-[57.8rem] h-[35.5rem] " />
           </div>
 
-          <article className="p-5 text-[1rem] text-white bg-custom-lightBlue/65 absolute w-[57.6rem]">
+          <article className="p-5 text-[1rem] text-white bg-custom-lightBlue/80 absolute w-[57.6rem]">
             "Jenny!" Leo ripped the heavy, metal door back.
             <br />
             <br /> My spine stiffened like the hair on a cornered dog. I

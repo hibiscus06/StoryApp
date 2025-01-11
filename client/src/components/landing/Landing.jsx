@@ -14,7 +14,6 @@ const Landing = () => {
       <Block1 />
       <About />
       <ReadingRoom />
-      <Testimonials />
       <Footer />
     </>
   );
